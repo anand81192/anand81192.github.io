@@ -442,6 +442,9 @@ header .slider .slide-item {
 
 
 /*********** slider image setting ***********/
+.wedding-announcement{
+	font-style: italic;
+}
 header .slider .slide-img-1 {
 	background: url(../images/home/slider/slider-1.jpg);
 	background-size: cover;

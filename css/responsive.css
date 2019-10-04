@@ -353,7 +353,12 @@
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1199px) {
 	.wedding-announcement .content h3 {
-		display: none;
+		position: relative;
+		left: auto;
+		display: block;
+		color: black;
+		bottom: auto;
+		right: auto;
 	}
 
 	.wedding-announcement .left-col,
