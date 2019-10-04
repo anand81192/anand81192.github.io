@@ -703,6 +703,15 @@
 	.flip-clock-wrapper {
     	max-width: 295px;
 	}
+	div#countdown {
+		left: 14%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	div#countdown {
+		left: 5%;
+	}	
 }
 /***********************************
 			/* 4. END RESPONSIVE */
