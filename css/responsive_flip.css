@@ -1,0 +1,709 @@
+/***********************************
+			/* 4. RESPONSIVE */
+/***********************************/
+
+
+
+@media only screen and (max-width: 1700px) {
+	.story-date {
+    	padding: 9px 3px;
+    	width: 140px;
+	}
+	.story-content h3 {
+	    font-size: 21px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.story-date {
+    	font-size: 12px;
+    	width: 120px;
+	}
+	.story-content h3 {
+	    font-size: 16px;
+	    padding: 0;
+	    margin: 0;
+	}
+	.single-happy-and{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.flip-clock-wrapper ul {
+	  margin: 2px;
+	}
+	.single-happy {
+	    width: 250px;
+	    height: 250px;
+	}
+	.single-happy .info-box-text p {
+	    padding: 5px 3px 0 3px;
+	    font-size: 12px;
+	}
+	.single-happy .info-box-text h3 {
+    	font-size: 21px;
+    	margin: 2px 0;
+	}
+	.single-happy .info-box-text {
+	    min-height: 210px;
+	}
+	.single-happy .info-box-wrap {
+	    margin: 10px;
+	    max-height: 230px;
+	    min-height: 230px;
+	}
+	.single-happy .info-box-text ul {
+	    bottom: 0;
+	}
+	.single-happy .info-box-text ul li a .icon {
+	    width: 30px;
+	    height: 30px;
+	    font-size: 14px;
+	}
+	.story-content p {
+    	font-size: 12px;
+	}
+	.donation-item {
+    	font-size: 18px;
+	}
+	.donation-text {
+    	font-size: 16px;
+	}
+	.story-date {
+    	font-size: 10px;
+    	width: 100px;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.page-info {
+		padding-top: 30px;
+	}
+	.icon-l-arrows-slim-down-dashed {
+		padding: 20px 0;
+	}
+	.story-c-block .col-md-6{
+		width: 100%;
+	}
+	.story-content h3 {
+		text-align: center;
+		width: 100%;
+		margin: 10px 0;
+	}
+	.story-date {
+	    width: 140px;
+	    font-size: 12px;
+	    padding: 9px 10px;
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+	.donation-item {
+    	font-size: 14px;
+	}
+	.donation-text {
+    	font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.all-title {
+		font-size: 100px;
+	}
+	.title-date {
+		padding-top: 10px;
+	}
+	.donation-item {
+    	font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.section-title-big {
+		padding-top: 70px;
+	}
+	.page-info {
+		min-height: initial;
+	}
+	#content {
+		height: 100%;
+	}
+	.single-happy {
+	    width: 350px;
+	    height: 350px;
+	}
+	.single-happy .info-box-text p {
+    	padding-top: 20px;
+    	font-size: 14px;
+	}
+	.single-happy .info-box-text h3 {
+	    font-size: 26px;
+	    margin: 20px 0;
+	}
+	.single-happy .info-box-text ul {
+    	bottom: 40px;
+	}
+	.single-happy .info-box-text ul li a .icon {
+	    width: 35px;
+	    height: 32px;
+	    font-size: 18px;
+	}
+	.single-happy .info-box-text {
+    	min-height: 310px;
+	}
+	.single-happy .info-box-wrap {
+    	margin: 20px;
+    	max-height: 310px;
+    	min-height: 310px;
+	}
+	.donation-item {
+    	font-size: 16px;
+	}
+	.donation-text {
+    	font-size: 16px;
+	}
+	.story-c-block .col-md-6{
+		width: 50%;
+	}
+	.story-content p {
+    	font-size: 14px;
+	}
+	.single-happy-and{
+		display: block;
+    }
+    .icon-l-arrows-slim-down-dashed{
+        display: none;
+    }
+    .btn.btn-border-white.show-info.animated.fadeInUp{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+	body {
+		overflow: hidden;
+	}
+	.page-info {
+		padding-top: 60px;
+		position: fixed;
+	}
+	.col-transform {
+		transition: all 0.6s ease-in-out;
+	}
+	.page-info {
+		padding-top: 60px;
+		position: fixed;
+	}
+	.show-content .page-content {
+		overflow: auto;
+		position: absolute;
+		right: 0;
+		visibility: visible;
+	}
+	.page-content {
+		position: absolute;
+		visibility: hidden;
+		right: -50%;
+		transition: all 0.6s ease-in-out;
+	}
+	.navbar-button {
+		display: block;
+	}
+	.single-happy-wrapp .single-happy-and {
+    	top: 60%;
+	}
+}
+
+
+@media only screen and (max-height: 930px) {
+	.page-info {
+		padding-top: 30px;
+	}
+	.icon-l-arrows-slim-down-dashed {
+		padding: 20px 0;
+	}
+}
+
+@media only screen and (max-height: 870px) {
+	.all-title {
+		font-size: 100px;
+	}
+	.title-date {
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-height: 820px)  {
+	.digit {
+		min-width: 59px;
+		max-width: 59px;
+	}
+	.logo img {
+		margin-top: 15px;
+	}
+	.digit.static {
+		font-size: 65px;
+		line-height: 65px;
+	}
+	.countHours:after,
+	.countDays:after,
+	.countMinutes:after,
+	.countSeconds:after {
+		top: 72px;
+	}
+	.countdownHolder {
+		font-size: 65px;
+		margin-bottom: 0;
+	}
+	.icon-l-arrows-slim-down-dashed {
+		padding: 4px 0;
+	}
+	.logo img {
+		width: 85px;
+	}
+}
+
+@media only screen and (max-height: 750px)  {
+	.title-front {
+		font-size: 24px;
+	}
+	.logo img {
+		width: 75px;
+	}
+	.all-title {
+		font-size: 90px;
+	}
+	.countdown-title {
+		margin-top: 0;
+	}
+	.title-date {
+		font-size: 32px;
+	}
+	.title-under {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-height: 700px)  { 
+	.all-title {
+		font-size: 80px;
+	}
+	.countdown-title,
+	.title-date {
+		font-size: 28px;
+	}
+	.digit.static {
+		font-size: 55px;
+		line-height: 55px;
+	}
+	.countdownHolder {
+		font-size: 55px;
+	}
+	.countHours:after, .countDays:after, .countMinutes:after, .countSeconds:after {
+		top: 63px;
+	}
+	.icon-l-arrows-slim-down-dashed {
+		font-size: 25px;
+		padding: 10px 0;
+	}
+}
+@media only screen and (max-height: 650px)  { 
+	.title-date {
+		padding: 0;
+	}
+	.countdown-title, .title-date {
+		font-size: 26px;
+	}
+	.all-title {
+		font-size: 75px;
+	}
+	.logo img {
+		width: 67px;
+	}
+	.title-front {
+		font-size: 22px;
+	}
+	.title-under {
+		padding-top: 12px;
+		font-size: 20px;
+	}
+	.icon-l-arrows-slim-down-dashed {
+		font-size: 22px;
+		padding: 9px 0; 
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.location h2 {
+		margin: 0;
+	}
+	.section-activity  h4 {
+		margin: 0;
+	}
+	.title-front {
+		font-size: 22px;
+	}
+	.logo img {
+		width: 70px;
+	}
+	.all-title {
+		font-size: 70px;
+	}
+	.countdown-title {
+		font-size: 30px;
+	}
+	.countDiv {
+		height: 30px;
+		margin-right: 18px;
+		margin-left: 18px;
+	}
+	.digit.static {
+		font-size: 45px;
+		line-height: 45px;
+	}
+	.countdownHolder {
+		font-size: 45px;
+	}
+	.digit {
+		min-width: 45px;
+		max-width: 45px;
+	}
+	.countdownHolder {
+		font-size: 30px;
+	}
+	.section-title {
+		margin: 40px 0;
+	}
+	.section-title.t60 {
+		margin-top: 40px;
+	}
+	.section-title-big {
+		padding-top: 40px;
+	}
+	.section-activity{
+		padding: 15px 0;
+	}
+	.donation-item {
+    	font-size: 14px;
+    	margin: 10px;
+    	padding: 10px 15px;
+	}
+	.donation-container {
+    	margin-bottom: 20px !important;
+	}
+	.single-happy-and{
+		display: none;
+	}
+	.story-section {
+    	padding: 0;
+	}
+	.story-content.left {
+    	margin-right: 0;
+	}
+	.story-section .time:before {
+		display: none;
+	}
+	.story-section .date:before {
+		display: none;
+	}
+	.story-section .together:before {
+		display: none;
+	}
+	.story-section .offer:before {
+		display: none;
+	}
+	.single-happy-wrapp .single-happy-and {
+    	top: 60%;
+	}
+	.single-happy{
+    	padding: 0;
+    	margin: 10px auto;
+	}
+	.story-content.left:after {
+		display: none;
+	}
+	.img-responsive {
+    	margin: 0 auto;
+    	height: 200px;
+	}
+	.story-content p.text-right {
+    	text-align: left;
+	}
+	.story-c-block .col-md-6 {
+    	width: 100%;
+    	display: inline-block;
+    	text-align: center;
+	}
+	.story-section .date {
+    	margin-top: 20px;
+	}
+	.story-section .time {
+    	margin-top: 20px;
+	}
+	.story-section .together {
+    	margin-top: 20px;
+	}    	
+	.story-section .offer {
+    	margin-top: 20px;
+	}
+	.story-content.right {
+    	margin-left: 0;
+	}
+	.flip-clock-wrapper ul {
+	    width: 50px;
+	    height: 70px;
+    }
+    .flip-clock-divider.days .flip-clock-label {
+    	right: -103px;
+	}
+	.flip-clock-divider .flip-clock-label {
+	    bottom: 0.2em;
+	    right: -86px;
+	}
+	.flip-clock-wrapper ul li a div.up:after {
+    	top: 33px;
+	}
+	.flip-clock-wrapper ul li {
+    	line-height: 71px;
+	}
+	.flip-clock-wrapper {
+    	max-width: 601px;
+	}
+}
+@media only screen and (max-width: 620px) {
+	.countdownHolder {
+		min-width: initial;
+	}
+	.countDiv {
+		margin-right: 8px;
+		margin-left: 8px;
+	}
+	.digit.static {
+		font-size: 32px;
+		line-height: 32px;
+	}
+	.position {
+		min-width: 35px;
+		height: 60px;
+	}
+	.countHours:after, .countDays:after, .countMinutes:after, .countSeconds:after {
+		font-size: 18px;
+		top: 39px;
+	}
+	.countdown-title {
+		font-size: 26px;
+		padding-bottom: 5px;
+	}
+	.donation-container .col-xs-3 {
+    	width: 50%;
+	}
+	.story-content p {
+    	font-size: 12px;
+	}
+	.flip-clock-wrapper ul {
+	    width: 40px;
+	    height: 70px;
+	    margin: 2px;
+    }
+    .flip-clock-divider.days .flip-clock-label {
+    	right: -80px;
+	}
+	.flip-clock-divider .flip-clock-label {
+	    bottom: 0.2em;
+	    right: -86px;
+	}
+	.flip-clock-wrapper ul li a div.up:after {
+    	top: 33px;
+	}
+	.flip-clock-wrapper ul li {
+    	line-height: 71px;
+	}
+	.flip-clock-wrapper {
+    	max-width: 461px;
+	}
+	.flip-clock-wrapper ul li a div div.inn {
+    	font-size: 52px;
+	}
+	.flip-clock-divider.hours .flip-clock-label {
+    	right: -60px;
+	}
+	.flip-clock-divider.seconds .flip-clock-label {
+    	right: -65px;
+	}
+	.flip-clock-dot.top {
+    	top: 20px;
+	}
+	.flip-clock-dot.bottom {
+    	bottom: 48px;
+	}
+	.flip-clock-divider.minutes .flip-clock-label {
+    	right: -62px;
+	}
+}
+@media only screen and (max-width: 510px) {
+	.flip-clock-wrapper ul {
+	    width: 26px;
+	    height: 40px;
+	    margin: 1px;
+	    padding: 0;
+    }
+    .flip-clock-divider.days .flip-clock-label {
+    	right: -56px;
+	}
+	.flip-clock-divider .flip-clock-label {
+	    bottom: 0.2em;
+	    right: -86px;
+	}
+	.flip-clock-wrapper ul li a div.up:after {
+    	top: 18px;
+	}
+	.flip-clock-wrapper ul li {
+    	line-height: 39px;
+	}
+	.flip-clock-wrapper {
+    	max-width: 361px;
+	}
+	.flip-clock-wrapper ul li a div div.inn {
+    	font-size: 32px;
+	}
+	.flip-clock-divider.hours .flip-clock-label {
+    	right: -45px;
+	}
+	.flip-clock-divider.seconds .flip-clock-label {
+    	right: -47px;
+	}
+	.flip-clock-dot.top {
+    	top: 13px;
+    	width: 4px;
+    	height: 4px;
+	}
+	.flip-clock-dot.bottom {
+    	bottom: 30px;
+    	width: 4px;
+    	height: 4px;
+	}
+	.flip-clock-divider.minutes .flip-clock-label {
+    	right: -47px;
+	}
+	.flip-clock-divider{
+    	width: 13px;
+    	height: 60px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	span.swirl-right {
+		padding-right: 85px;
+		background-size: 30%;
+	}
+	#info {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.all-title {
+		font-size: 52px;
+	}
+	span.swirl-left {
+		padding-left: 85px;
+		background-size: 23%;
+	}
+	.countDiv {
+		width: 9px;
+	}
+	.position {
+		min-width: 23px;
+	}
+	.digit.static {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.digit.static {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.digit.static {
+		background: none;
+		box-shadow: none;
+	}
+	.countDays, .countHours, .countMinutes, .countSeconds {
+	    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    	background: rgba(255, 255, 255, .1);
+  	}
+  	.position {
+  		height: 37px;
+  	}
+  	.countHours:after, .countDays:after, .countMinutes:after, .countSeconds:after {
+  		font-size: 16px;
+  		top: 36px;
+  	}
+  	.countDiv {
+  		height: 25px;
+  		margin-top: 17px;
+  	}
+  	.title-date {
+  		font-size: 26px;
+  	}
+  	.single-happy {
+  		width: 100%;
+  	}
+  	.section-title {
+  		margin: 25px 0; 
+  	}
+  	.section-title.t60 {
+  		margin-top: 25px;
+  	}
+  	.section-title-big {
+  		padding-top: 25px;
+  	}
+	.donation-text{
+	    font-size: 14px;
+	}
+	.single-happy .info-box-text p {
+    	font-size: 12px;
+	}
+	.single-happy .info-box-text {
+    	min-height: 270px;
+	}
+	.single-happy .info-box-wrap {
+    	margin: 10px;
+    	max-height: 270px;
+   	 	min-height: 270px;
+	}
+	.single-happy-wrapp .single-happy-and {
+    	top: 46.3%;
+	}
+	.section-title {
+    	font-size: 18px;
+	}
+	.section-title span:after {
+    	width: 20px;
+    	left: -30px;
+	}
+	.section-title span:before {
+    	width: 20px;
+    	right: -30px;
+	}
+	.location h2 {
+    	font-size: 18px;
+	}
+	.digit{
+		font-size: 20px;
+	}
+	.countHours:after, .countDays:after, .countMinutes:after, .countSeconds:after {
+    	font-size: 13px;
+    	top: 41px;
+	}
+	.single-happy {
+    	margin: 10px 0;
+    	padding: 0;
+	}
+	.single-happy {
+    	height: 290px;
+	}
+	.flip-clock-wrapper {
+    	max-width: 295px;
+	}
+}
+/***********************************
+			/* 4. END RESPONSIVE */
+/**********************************

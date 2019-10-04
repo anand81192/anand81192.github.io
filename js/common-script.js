@@ -36,4 +36,44 @@ $(function() {
          $('header .navbar-collapse').removeClass('in');
     });
 
+    var clock;
+
+clock = $('#countdown').FlipClock({
+    clockFace: 'DailyCounter',
+    autoStart: false,
+    minimumDigits: 9,
+    callbacks: {
+        stop: function() {
+            $('.message').html('The clock has stopped!')
+        }
+    }
+});
+ var currentTime = new Date();
+
+var currentOffset = currentTime.getTimezoneOffset();
+
+var ISTOffset = 330;   // IST offset UTC +5:30 
+
+var ISTTime = new Date(currentTime.getTime() + (ISTOffset + currentOffset)*60000);
+
+// ISTTime now represents the time in IST coordinates
+
+var hoursIST = ISTTime.getHours()
+var minutesIST = ISTTime.getMinutes()
+   
+//var ts = new Date("Apr 16, 2018 "+hoursIST+":"+minutesIST);
+
+var ts = moment.tz("2020-01-19 00:00", "Asia/Kolkata");
+var date_now = moment().tz("Asia/Kolkata")
+var seconds = Math.floor((ts - (date_now))/1000);
+
+if(seconds<0)
+{
+  seconds = 0;
+}
+
+clock.setTime(seconds);
+clock.setCountdown(true);
+clock.start();
+
 });
