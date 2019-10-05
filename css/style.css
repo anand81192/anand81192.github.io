@@ -1858,9 +1858,10 @@ header .title-bg {
 .flip-clock-dot{
 	z-index: 1;
 }
-.flip-clock-dot{
+
+.flip-clock-divider .flip-clock-label{
 	z-index: 1;
-	color: #df2349;
+	color: #fffdfd;
 }
 
  
