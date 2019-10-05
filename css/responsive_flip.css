@@ -181,9 +181,6 @@
 }
 
 @media only screen and (min-width: 991px) {
-	body {
-		overflow: hidden;
-	}
 	.page-info {
 		padding-top: 60px;
 		position: fixed;
@@ -470,6 +467,9 @@
 	.flip-clock-wrapper {
     	max-width: 601px;
 	}
+	div#countdown {
+		left: calc((100% - 546px)/2);
+	}
 }
 @media only screen and (max-width: 620px) {
 	.countdownHolder {
@@ -522,6 +522,9 @@
 	.flip-clock-wrapper {
     	max-width: 461px;
 	}
+	div#countdown {
+		left: calc((100% - 456px)/2);
+	}
 	.flip-clock-wrapper ul li a div div.inn {
     	font-size: 52px;
 	}
@@ -563,6 +566,9 @@
 	}
 	.flip-clock-wrapper {
     	max-width: 361px;
+	}
+	div#countdown {
+		left: calc((100% - 291px)/2);
 	}
 	.flip-clock-wrapper ul li a div div.inn {
     	font-size: 32px;
@@ -703,16 +709,10 @@
 	.flip-clock-wrapper {
     	max-width: 295px;
 	}
-	div#countdown {
-		left: 14%;
-	}
+
 }
 
-@media only screen and (max-width: 360px) {
-	div#countdown {
-		left: 5%;
-	}	
-}
+
 /***********************************
 			/* 4. END RESPONSIVE */
 /**********************************

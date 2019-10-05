@@ -1844,14 +1844,23 @@ footer ul li a:hover {
 /* Anand custom */
 
 div#countdown {
-    position: absolute;
-    left: 10%;
+	position: absolute;
+    left: calc((100% - 636px)/2);
     bottom: 0;
 }
 .flip-clock-wrapper ul li a div div.inn{
 	color: #df2349;
 }
+header .title-bg {
+	top:70%;
+}
 
-
+.flip-clock-dot{
+	z-index: 1;
+}
+.flip-clock-dot{
+	z-index: 1;
+	color: #df2349;
+}
 
  
